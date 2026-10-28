@@ -1,0 +1,14 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated experiment outputs
+runs/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
